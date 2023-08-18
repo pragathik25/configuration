@@ -1,0 +1,15 @@
+uuid: 085a3fa2-0332-4406-801f-1c484ae3ff42
+langcode: en
+status: true
+dependencies: {  }
+name: article_image_style
+label: 'article image style'
+effects:
+  8d8750e7-608f-4199-ba4f-d557e5d69e22:
+    uuid: 8d8750e7-608f-4199-ba4f-d557e5d69e22
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 500
+      height: 500
+      anchor: center-center
